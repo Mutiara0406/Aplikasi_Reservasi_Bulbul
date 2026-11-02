@@ -1,0 +1,59 @@
+name: bulbul_reservasi
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  carousel_slider: ^5.0.0
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.2
+  http: ^1.2.0
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+  image_picker: ^1.0.7
+  url_launcher: ^6.3.0
+  geolocator: ^9.0.2
+  animate_do: ^3.3.4
+  file_picker: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  
+  # Gambar Utama
+  image_path: "assets/logos/aplikasi_logo_agakbesar.png"
+  
+  adaptive_icon_foreground: "assets/logos/aplikasi_logo_agakbesar.png"
+  adaptive_icon_background: "#50C2C9"
+  
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/pantai_landingscreens.jpg
+    - assets/images/Pondok1.jpg
+    - assets/images/Pondok2.jpg
+    - assets/images/pondok3.jpg
+    - assets/images/Tenda1.jpg
+    - assets/images/Tenda2.jpg
+    - assets/images/Tenda3.jpg
+    - assets/images/homestay.jpeg
+    - assets/images/Homestay1.jpg
+    - assets/images/Homestay2.jpg
+    - assets/images/Homestay3.jpg
+    - assets/logos/aplikasi_logo_agakbesar.png
